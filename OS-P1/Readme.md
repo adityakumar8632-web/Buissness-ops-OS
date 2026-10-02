@@ -22,6 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+```
 
 ### Method B: Page View Mount (app/crm/page.tsx)
 Construct your domain view inside the standard PageContainer:
@@ -40,3 +41,4 @@ export default function CRMPage() {
     </PageContainer>
   );
 }
+```
