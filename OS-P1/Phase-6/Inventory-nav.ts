@@ -1,3 +1,4 @@
+// features/inventory/nav.ts
 import { navigationRegistry } from '@/core/navigation';
 
 navigationRegistry.register({
